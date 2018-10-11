@@ -1,0 +1,129 @@
+*{
+	box-sizing: border-box;
+	font-family: Roboto;
+}
+
+.nav-list {
+display: inline-block;
+
+
+
+}
+
+.profilepicture {
+height: 12em;
+width: 12em;
+border-radius: 50%;
+text-align: center;
+}
+
+.clearfix {
+	  content: "";
+    clear: both;
+    display: table;
+}
+
+
+@media (min-width: 1025px) {
+
+.nav-nav{
+background-color: green;
+width: 100%;
+padding: 0.1em 0; 
+
+}
+
+	.nav-ul {
+		float: right;
+
+		margin-right: 2em;
+		
+
+		}
+
+
+	.nav-list a{
+	display: inline-block;
+	margin-left: 1.4em;
+	text-decoration: none;
+	color: white;
+
+}
+
+.nav-li-container {
+
+}
+
+.profilepicture {
+height: 10em;
+width: 10em;
+border-radius: 50%;
+}
+
+
+.profileheader {
+width: 100%;
+/*background-color: blue;*/
+text-align: center;
+background-image: url(https://images.unsplash.com/photo-1468386735537-1488fd34c89b?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=e73a468ec11df24124ea9048cb9460f5&auto=format&fit=crop&w=1350&q=80);
+background-repeat: no-repeat;
+background-size: cover;
+color:white;
+padding-top: 1em;
+}
+	
+
+
+.projectdiv {
+	background-color: orange;
+}
+
+.viewprojectsbutton{
+	display: inline-block;
+	
+	border: 4px white solid;
+	color:white;
+	border-radius: 5px;
+	padding: 12px 16px;
+	cursor: pointer;
+	font-family: Arial;
+	text-align: center;
+	}
+
+
+	.clandskills{
+		/*width: 100%;*/
+		display: flex;
+
+
+		
+	}
+	.cldiv{
+		flex: 1;
+		display: block;
+		float: left;
+		width: 50%;
+		background-color: purple;
+		text-align: center;
+		flex-grow: 25;
+		
+	}
+	.skillsdiv{
+		flex: 2;
+		display:block;
+		float: right;
+		width: 50%;
+		background-color: brown;
+		flex-grow: 25;
+	}
+	.educationdiv {
+		display:block;
+		background-color: lime;
+		text-align: center;
+
+	}
+#education li {
+	display: inline-block;
+}
+
+}
